@@ -65,6 +65,7 @@ Tratamento_de_erros/
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [ts-node](https://typestrong.org/ts-node/)
 
 ### Passos
 
@@ -78,12 +79,24 @@ Tratamento_de_erros/
         git@github.com:NicolasLK/Tratamento_de_erros_CleanCode.git
       ```
 2. Acesse o diretório:
+    ```bash
+      cd Tratamento_de_erros_CleanCode
+    ```
 3. Instale as dependências:
-4. Compile os arquivos TypeScript:
-5. Execute o programa:
-  ```bash
-    npm run start
-  ```
+    ```bash
+    npm install
+    ```
+4. Execute o programa:
+    ```bash
+    npm start
+    ```
+
+    💡 O comando **npm start** está configurado no arquivo package.json para rodar ts-node diretamente:
+    ```json
+    "scripts": {
+      "start": "ts-node src/main.ts"
+    }
+    ```
 
 ---
 
