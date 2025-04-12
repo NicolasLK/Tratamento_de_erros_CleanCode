@@ -8,7 +8,7 @@
 
 ## 👤 Autoria
 
-Desenvolvido por **Nicolas Loffi Kaminski**
+Desenvolvido por: **Nicolas Loffi Kaminski**
 
 ---
 
@@ -35,18 +35,21 @@ Este projeto é um pequeno programa escrito em **TypeScript** que simula um torn
 ---
 
 ## 📦 Estrutura do Projeto
+
+```bash
 Tratamento_de_erros/
+├── logs/
+│   └── error.log
 ├── src/
 │   ├── models/
 │   │   ├── match.ts
 │   │   ├── tournament.ts
 │   ├── main.ts
 │   └── logger.ts ?
-├── logs/
-│   └── error.log
 ├── package.json
 ├── README.md
 └── tsconfig.json
+```
 
 ---
 
@@ -62,25 +65,25 @@ Tratamento_de_erros/
 
 ### Pré-requisitos
 
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [ts-node](https://typestrong.org/ts-node/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![ts-node](https://img.shields.io/badge/ts--node-3178C6?style=for-the-badge&logo=ts-node&logoColor=white)](https://typestrong.org/ts-node/)
 
 ### Passos
 
 1. Clone o repositório:
    - HTTPS:
       ```bash
-        https://github.com/NicolasLK/Tratamento_de_erros_CleanCode.git
+      https://github.com/NicolasLK/Tratamento_de_erros_CleanCode.git
       ```
    - SSH:
       ```bash
-        git@github.com:NicolasLK/Tratamento_de_erros_CleanCode.git
+      git@github.com:NicolasLK/Tratamento_de_erros_CleanCode.git
       ```
 2. Acesse o diretório:
     ```bash
-      cd Tratamento_de_erros_CleanCode
+    cd Tratamento_de_erros_CleanCode
     ```
 3. Instale as dependências:
     ```bash
