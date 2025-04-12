@@ -40,6 +40,7 @@ Este projeto é um pequeno programa escrito em **TypeScript** que simula um torn
 Tratamento_de_erros/
 ├── logs/
 │   └── error.log
+│   └── info.log
 ├── src/
 │   ├── models/
 │   │   ├── match.ts
