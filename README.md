@@ -45,7 +45,7 @@ Tratamento_de_erros/
 │   │   ├── match.ts
 │   │   ├── tournament.ts
 │   ├── main.ts
-│   └── logger.ts ?
+│   └── logger.ts
 ├── package.json
 ├── README.md
 └── tsconfig.json
