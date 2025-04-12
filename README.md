@@ -69,6 +69,14 @@ Tratamento_de_erros/
 ### Passos
 
 1. Clone o repositório:
+   - HTTPS:
+      ```bash
+        https://github.com/NicolasLK/Tratamento_de_erros_CleanCode.git
+      ```
+   - SSH:
+      ```bash
+        git@github.com:NicolasLK/Tratamento_de_erros_CleanCode.git
+      ```
 2. Acesse o diretório:
 3. Instale as dependências:
 4. Compile os arquivos TypeScript:
@@ -86,8 +94,6 @@ O projeto implementa tratamento de exceções para os seguintes casos:
 - ❌ Nome de time vazio ou nulo;
 - ❌ Número de gols negativo;
 - ❌ Partida iniciada com time inexistente.
-
----
 
 ### 📁 Logs
 
